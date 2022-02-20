@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+.main-div{
+  position: relative;
+  left: 50%;
+  width: 70%;
+  transform: translateX(-50%);
+}
+.search-bar{
+  display: inline;
+  position: relative;
+  left: 15%;
+}
+
+input[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #272b2c;
+  outline: none;
+}
+.button3{
+  background-color: rgb(209, 87, 38);
+  border: 0px;
+  color: white;
+  font-size: 25px;
+  border-radius: 10%;
+  padding: 15px 32px;
+}
+.flex{
+  margin-top: 5%;
+  display: flex;
+  flex-shrink: 3;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.video-box{
+  list-style: none;
+  flex: 0 0 33.333333%;
+}
+.pagination {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
